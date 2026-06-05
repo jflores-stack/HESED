@@ -1,0 +1,6 @@
+{
+  "name": "Proyecto HESED",
+  "description": "Plataforma para el proyecto HESED: tutorías, enseñanzas bíblicas, gestión de voluntarios y donaciones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-50: #F4F7F3;
+  --color-emerald-100: #CDD5C5;
+  --color-emerald-200: #A8B89E;
+  --color-emerald-300: #829A76;
+  --color-emerald-400: #627D56;
+  --color-emerald-500: #4A6741;
+  --color-emerald-600: #3A5233;
+  --color-emerald-700: #2C3E26;
+  --color-emerald-800: #1D2919;
+  --color-emerald-900: #0F150C;
+
+  --color-neutral-50: #FDFCF8;
+  --color-neutral-100: #F7F4F0;
+  --color-neutral-200: #F2EDE4;
+  --color-neutral-300: #E8E4D9;
+  --color-neutral-400: #C2BAA6;
+  --color-neutral-500: #8B7E66;
+  --color-neutral-600: #5D574A;
+  --color-neutral-700: #464137;
+  --color-neutral-800: #333333;
+  --color-neutral-900: #2D2D2D;
+
+  --color-blue-50: #FDF7F5;
+  --color-blue-100: #F4E2DC;
+  --color-blue-200: #E2D4C8;
+  --color-blue-300: #D8A28E;
+  --color-blue-400: #CE795E;
+  --color-blue-500: #C05E3C;
+  --color-blue-600: #A64D31;
+  --color-blue-700: #803923;
+  --color-blue-800: #5B2716;
+  --color-blue-900: #36150B;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+body {
+  background-color: var(--color-neutral-50);
+  color: var(--color-neutral-900);
+}
+
+.markdown-body img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.markdown-body strong {
+  font-weight: 700;
+  color: var(--color-neutral-900);
+}
